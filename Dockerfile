@@ -13,4 +13,4 @@ RUN node ace build
 
 EXPOSE 3333
 
-CMD ["sh", "-c", "node ace migration:run && npm start"]
+CMD ["npm", "start"]
