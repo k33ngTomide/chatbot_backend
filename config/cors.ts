@@ -2,7 +2,7 @@
 
 const corsConfig = {
   enabled: true,
-  origin: ['http://localhost:5173'],
+  origin: ['https://chatbot-frontend-delta-three.vercel.app'],
   methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE'],
   headers: true,
   exposeHeaders: [],
