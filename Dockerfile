@@ -9,7 +9,7 @@ RUN npm install
 
 COPY . .
 
-# RUN node ace build
+RUN node ace build
 
 EXPOSE 3333
 
