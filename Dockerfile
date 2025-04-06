@@ -8,7 +8,6 @@ COPY package*.json ./
 RUN npm install
 
 COPY . .
-COPY .env .env
 
 RUN node ace build
 
